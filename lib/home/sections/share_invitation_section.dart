@@ -71,8 +71,7 @@ class _ContactCard extends StatelessWidget {
                     style: TextStyle(fontWeight: FontWeight.w600),
                   ),
                   TextSpan(
-                    text:
-                        'I\'m on JHomes now! Let\'s connect and continue our '
+                    text: 'I\'m on JHomes now! Let\'s connect and continue our '
                         'rental payments seamlessly on the JHomes platform. '
                         'It\'s simple, reliable, secure, and convenient for '
                         'both tenants,\nlandlords, and their representatives.\n'
@@ -84,10 +83,12 @@ class _ContactCard extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
           ),
-          const SizedBox(height: 72),
+          const SizedBox(height: 42),
           Row(
             children: [
-              for (var i = 0; i < ShareInvitationSection._channels.length; i++) ...[
+              for (var i = 0;
+                  i < ShareInvitationSection._channels.length;
+                  i++) ...[
                 if (i > 0) const SizedBox(width: 24),
                 Expanded(
                   child: _ChannelTile(

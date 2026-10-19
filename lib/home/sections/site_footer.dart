@@ -52,7 +52,7 @@ class SiteFooter extends StatelessWidget {
                     const _TextAndLinks(),
                     const SizedBox(height: 40),
                     Container(height: 1, color: Colors.white.withValues(alpha: 0.10)),
-                    const SizedBox(height: 40),
+                    const SizedBox(height: 39),
                     Text(
                       '\u00A9 2025 Jaburatta Digital Solutions Limited | '
                       'All Rights Reserved | Privacy Policy | Terms and '

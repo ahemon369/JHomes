@@ -18,7 +18,7 @@ class PropertyCard extends StatelessWidget {
     return Container(
       width: cardWidth,
       height: cardHeight,
-      padding: const EdgeInsets.only(top: 16, right: 16, bottom: 24, left: 16),
+      padding: const EdgeInsets.only(top: 16, right: 16, bottom: 22, left: 16),
       decoration: BoxDecoration(
         color: AppColors.surfaceSoft,
         borderRadius: BorderRadius.circular(16),
@@ -39,7 +39,8 @@ class PropertyCard extends StatelessWidget {
           const SizedBox(height: 16),
           Row(
             children: [
-              SvgPicture.asset('assets/icons/icon_mappin.svg', width: 24, height: 24),
+              SvgPicture.asset('assets/icons/icon_mappin.svg',
+                  width: 24, height: 24),
               const SizedBox(width: 8),
               Expanded(
                 child: Text(
