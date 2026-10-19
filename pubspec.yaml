@@ -1,0 +1,42 @@
+name: jhomes
+description: "JHomes home page — Flutter implementation of the Figma design."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: Onest
+      fonts:
+        - asset: assets/fonts/Onest-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Onest-SemiBold.ttf
+          weight: 600
+    - family: RobotoFlex
+      fonts:
+        - asset: assets/fonts/RobotoFlex-SemiBold.ttf
+          weight: 600
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
